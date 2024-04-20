@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Cut Desiging</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Pacifico&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <section id="banner">
+        <div class="logo">FAWAZ</div>
+        <div class="banner_text">
+            <h1>Hair Studio</h1>
+            <p>Style Your Hair Is Style Your Life</p>
+            <div class="btn">
+             
+                <a href="">   <span></span>Find</a>
+                <a href="">   <span></span>Read More</a>
+            </div>
+           
+        </div>
+    </section>
+
+    
+        <div id="side_nav">
+            <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">FEATURE</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">TESTIMONIAL</a></li>
+                <li><a href="">MEET US</a></li>
+            </ul>
+        </nav>
+        </div>
+       <div id="menubtn">
+        <img src="images/menu.jpg" alt="" id="menu">
+       </div>
+       <script>
+        var menubtn=document.getElementsByid("menubtn");
+        var sidenav=document.getElementsByid("side_nav");
+        var menu=document.getElementsByid("menu");
+
+        menubtn.onclick=function(){
+            if(sidenav.style.right == "-300px"){
+                sidenav.style.right="0"
+            }else{
+                sidenav.style.right="-300px"
+            }
+        }
+
+       </script>
+   
+    
+</body>
+</html>

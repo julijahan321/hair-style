@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688), url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    font-weight: bold;
+    color: rgb(163, 180, 180);
+}
+.banner_text{
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+.banner_text h1{
+    font-size: 130px;
+    font-family: "Pacifico", cursive;
+   
+}
+.banner_text p{
+    font-size: 20px;
+    font-style: italic;
+    border-style: b;
+   
+}
+.btn{
+    margin: 30px auto 0;
+    
+
+}
+.btn a{
+    width: 150px;
+    text-decoration: none;
+    border: 5px solid rgb(234, 226, 226);
+    border-radius: 25px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #181717;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.btn a:hover span{
+    width: 100%;
+}
+#side_nav{
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    right: 0px;
+    position: fixed;
+    display: none;
+    background: #009688;
+  
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+#menubtn{
+   
+    width: 10px;
+    height: 5px;
+    background: #009688;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    text-align: center;
+   
+   
+}
+#menubtn img{
+    width: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+    border-radius: 25px;
+}
